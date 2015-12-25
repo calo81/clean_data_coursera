@@ -92,12 +92,12 @@ Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012
 <domain_type>_<type_of_move>.<value_type>_<axis_of_measure>
 ```
 
-  Where:
+    Where:
 
-  * domain_type is either `time` or `frequency`
-  * type_of_move can be either of the original types including acceleration, gyroscope velocity, etc. Keeping the originally described names.
-  * value_type is either std or mean depending on if it is a standard deviation variable or a mean variable.
-  * axis_of_measure can be either x_axis, y_axis or z_axis, describing the axis in the 3D space against which the particular measure is taken.
+    * domain_type is either `time` or `frequency`
+    * type_of_move can be either of the original types including acceleration, gyroscope velocity, etc. Keeping the originally described names.
+    * value_type is either std or mean depending on if it is a standard deviation variable or a mean variable.
+    * axis_of_measure can be either x_axis, y_axis or z_axis, describing the axis in the 3D space against which the particular measure is taken.
 
 * Then we added columns for subject and activity to the dataset. With descriptive names for each variable.
 * The activity data, that contained numeric identifiers, was previously joined with the name of the features to obtain the actual human readable name of the activity.
